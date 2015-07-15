@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="489" started-at="2015-07-15T09:20:59Z" finished-at="2015-07-15T09:21:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="489" started-at="2015-07-15T09:20:59Z" finished-at="2015-07-15T09:21:00Z">
+      <class name="com.spring.javabrains.TestBaseClass">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2015-07-15T14:50:59Z" finished-at="2015-07-15T14:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="437" started-at="2015-07-15T14:50:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-07-15T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-07-15T14:51:00Z" finished-at="2015-07-15T14:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.javabrains.TestBaseClass.testgetEnvDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testgetEnvDetails()[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="testgetEnvDetails" duration-ms="5" started-at="2015-07-15T14:51:00Z" finished-at="2015-07-15T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetEnvDetails -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="8" started-at="2015-07-15T14:51:00Z" finished-at="2015-07-15T14:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.javabrains.TestBaseClass.testgetEnvDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.spring.javabrains.TestBaseClass@153f5a29]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-07-15T14:51:00Z" finished-at="2015-07-15T14:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.spring.javabrains.TestBaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
